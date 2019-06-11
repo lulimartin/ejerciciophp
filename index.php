@@ -63,5 +63,11 @@ if ($edad > 18  && $casado == false) {
   echo "BIenvenido";
 }
 
-$cantidadDeAlumnos
+$cantidadDeAlumnos=[ rand(1,100) . "\n"];
+if ($cantidadDeAlumnos) {
+echo 'true';
+}
+else {
+echo 'false';
+}
  ?>
