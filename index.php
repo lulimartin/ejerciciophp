@@ -11,4 +11,6 @@ $cart->addItem();
 foreach ($cart->getItems()as $item) {
   // code...
 }
+
+$db = new DB;
  ?>
